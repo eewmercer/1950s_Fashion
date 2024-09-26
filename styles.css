@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #454554;
+    align-items: center;
+
+    img {
+        width: 8%;
+        margin-left: 10px;
+    }
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 75px;
+    font-size: 35px;
+    color: white;
+    margin-right: 50px;
+}
+
+.section-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+
+    img {
+        width: 20%;
+    }
+}
+
+.intro {
+    display: flex;
+    width: 75%;
+}
+
+.historical-point {
+    width: 75%;
+}
+
+.cultural-point {
+    width: 75%;
+}
+
+.men-women-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+}
+
+.movie-stars {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
